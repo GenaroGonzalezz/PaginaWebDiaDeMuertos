@@ -29,6 +29,7 @@
         <Button Text="Tomar una foto" Clicked="Tomar_Clicked"/>
 
         <Button Text="Analizar" Clicked="Analizar_Clicked"/>
+        <Button Text="Chatbot" Clicked="Chatbot_Clicked"/>
 
         <Label x:Name="Resultado"/>
         <ProgressBar x:Name="Precision"/>

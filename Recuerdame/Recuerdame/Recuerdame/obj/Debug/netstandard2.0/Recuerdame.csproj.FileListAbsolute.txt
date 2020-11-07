@@ -12,3 +12,4 @@ C:\Users\cesar\source\repos\Recuerdame\Recuerdame\Recuerdame\Recuerdame\bin\Debu
 C:\Users\cesar\source\repos\Recuerdame\Recuerdame\Recuerdame\Recuerdame\obj\Debug\netstandard2.0\Recuerdame.csprojAssemblyReference.cache
 C:\Users\cesar\source\repos\Recuerdame\Recuerdame\Recuerdame\Recuerdame\obj\Debug\netstandard2.0\Recuerdame.csproj.CoreCompileInputs.cache
 C:\Users\cesar\source\repos\Recuerdame\Recuerdame\Recuerdame\Recuerdame\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\cesar\source\repos\Recuerdame\Recuerdame\Recuerdame\Recuerdame\obj\Debug\netstandard2.0\ChatBot.xaml.g.cs
