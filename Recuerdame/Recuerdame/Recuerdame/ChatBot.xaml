@@ -4,7 +4,7 @@
              x:Class="Recuerdame.ChatBot">
     <ContentPage.Content>
         <StackLayout>
-            <WebView x:Name="browser" Source="https://webchat.botframework.com/embed/preguntasmuertos-bot?s=2K1K_zKguck._Iolu5aLOsJRffNN9ELB-1V_3G_AT16HYzkGkgztfmI" WidthRequest="300" HeightRequest="300"></WebView>
+            <!--<WebView x:Name="browser" Source="https://webchat.botframework.com/embed/preguntasmuertos-bot?s=2K1K_zKguck._Iolu5aLOsJRffNN9ELB-1V_3G_AT16HYzkGkgztfmI" WidthRequest="300" HeightRequest="300"></WebView>-->
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

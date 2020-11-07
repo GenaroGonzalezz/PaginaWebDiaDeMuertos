@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 using Xamarin.Forms;
+using Xamarin.Forms.PlatformConfiguration;
 using Xamarin.Forms.Xaml;
 
 namespace Recuerdame
@@ -15,10 +16,10 @@ namespace Recuerdame
         public ChatBot()
         {
             InitializeComponent();
-            //var browser = new WebView();
+            var browser = new WebView();
 
-            //browser.Source = "https://webchat.botframework.com/embed/preguntasmuertos-bot?s=2K1K_zKguck._Iolu5aLOsJRffNN9ELB-1V_3G_AT16HYzkGkgztfmI";
-            //this.Content = browser;
+            browser.Source = "https://webchat.botframework.com/embed/preguntasmuertos-bot?s=2K1K_zKguck._Iolu5aLOsJRffNN9ELB-1V_3G_AT16HYzkGkgztfmI";
+            this.Content = browser;
         }
     }
 }
