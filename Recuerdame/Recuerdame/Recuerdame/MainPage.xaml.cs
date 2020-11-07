@@ -82,6 +82,10 @@ namespace Recuerdame
                 return;
             }
         }
+        private void Chatbot_Clicked(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new NavigationPage(new ChatBot());
+        }
 
         private async void Analizar_Clicked(object sender, EventArgs e)
         {
@@ -107,13 +111,21 @@ namespace Recuerdame
                 Resultado.Text = $"{tag.Tag} - {tag.Probability:p0}";
                 Precision.Progress = tag.Probability;
             }
-            
-            
         }
+    }
 
-        private void Chatbot_Clicked(object sender, EventArgs e)
-        {
-            App.Current.MainPage = new NavigationPage(new ChatBot());
-        }
+    //Al comentar la clase PredictionResponse se eliminan los errores en "Resultado.Text" y "Precision.Progress"
+    //Pero hacer esto causa un fallo en la variable tag con respecto a la necesidad de la clase "PredictionResponse"
+    public class PredictionResponse
+    {
+        public string Tag { get; set; }
+
+        public string Id { get; set; }
+        public string Probability { get; set; }
+        public string Project { get; set; }
+        public string Iteration { get; set; }
+        public DateTime Created { get; set; }
+        public Prediction[] Predictions { get; set; }
+
     }
 }
