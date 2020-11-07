@@ -28,7 +28,7 @@ namespace Recuerdame
         {
             count++;
             ((Button)sender).Text = $"You clicked {count} times.";
-        }
+        } 
         private async void Elegir_Clicked(object sender, EventArgs e)
         {
             await CrossMedia.Current.Initialize();
@@ -84,30 +84,30 @@ namespace Recuerdame
 
         private async void Analizar_Clicked(object sender, EventArgs e)
         {
-            //const string endpoint = ""; //link
+            const string endpoint = "https://servsearch.cognitiveservices.azure.com/customvision/v3.0/Prediction/d6057e20-e203-4a2c-852d-bbbaa2fdc00f/detect/iterations/Iteration12/image"; //link
 
-            //var httpClient = new HttpClient();
-            //httpClient.DefaultRequestHeaders.Add("Prediction-Key", ""); //Prediction key of "If you have an image file" 
+            var httpClient = new HttpClient();
+            httpClient.DefaultRequestHeaders.Add("Prediction-Key", "9916eea6e3be47dc8f87206b10e7ccb7"); //Prediction key of "If you have an image file" 
+            var contentStream = new StreamContent(_photo.GetStream());
 
-            //var contentStream = new StreamContent(_photo.GetStream());
+            using (Acr.UserDialogs.UserDialogs.Instance.Loading("Procesando..."))
+            {
+                var response = await httpClient.PostAsync(endpoint, contentStream);
 
-            //using (Acr.UserDialogs.UserDialogs.Instance.Loading("Procesando..."))
-            //{
-            //    var response = await httpClient.PostAsync(endpoint, contentStream);
+                if (!response.IsSuccessStatusCode)
+                {
+                    UserDialogs.Instance.Toast("Un error ha ocurrido");
+                    return;
+                }
+                var json = await response.Content.ReadAsStringAsync();
+                var prediction = JsonConvert.DeserializeObject<PredictionResponse>(json);
+                var tag = prediction.Predictions.First();
 
-            //    if (!response.IsSuccessStatusCode)
-            //    {
-            //        UserDialogs.Instance.Toast("Un error ha ocurrido");
-            //    }
-
-            //    var json = await response.Content.ReadAsStringAsync();
-
-            //    var prediction = JsonConvert.DeserializeObject<PredictionsResponse>(json);
-            //    var tag = prediction.Predictions.First();
-
-            //    Resultado.Text = $"{tag.Tag} - {tag.Probability:p0}";
-            //    Precision.Progress = tag.Probability;
-            //}
+                Resultado.Text = $"{tag.Tag} - {tag.Probability:p0}";
+                Precision.Progress = tag.Probability;
+            }
+            
+            
         }
 
         private void Chatbot_Clicked(object sender, EventArgs e)

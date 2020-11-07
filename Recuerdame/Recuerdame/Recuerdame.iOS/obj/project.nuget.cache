@@ -1,15 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "ewza+6RencpXjem71p8WLyZnQG2sviUuTsJvSd8aeO/OkAC4PEzuack8bNDBAkCbPNsR1lt14tlZfojkap11/g==",
+  "dgSpecHash": "lT0hEQrQ+0BOi9lTty/B3lGw4VYq5nRUrCAU7WxQXHPTb6bz4sCtt7aCyfj78fTnfZfp0kzfYDDCh88j0ujSuA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cesar\\source\\repos\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame.iOS\\Recuerdame.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Gena4\\Desktop\\PracticasInnovaccion\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame.iOS\\Recuerdame.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\cesar\\.nuget\\packages\\acr.userdialogs\\7.1.0.466\\acr.userdialogs.7.1.0.466.nupkg.sha512",
-    "C:\\Users\\cesar\\.nuget\\packages\\btprogresshud\\1.3.1\\btprogresshud.1.3.1.nupkg.sha512",
-    "C:\\Users\\cesar\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
-    "C:\\Users\\cesar\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
+    "C:\\Users\\Gena4\\.nuget\\packages\\acr.userdialogs\\7.1.0.466\\acr.userdialogs.7.1.0.466.nupkg.sha512",
+    "C:\\Users\\Gena4\\.nuget\\packages\\btprogresshud\\1.3.1\\btprogresshud.1.3.1.nupkg.sha512",
+    "C:\\Users\\Gena4\\.nuget\\packages\\microsoft.bcl\\1.1.10\\microsoft.bcl.1.1.10.nupkg.sha512",
+    "C:\\Users\\Gena4\\.nuget\\packages\\microsoft.bcl.build\\1.0.14\\microsoft.bcl.build.1.0.14.nupkg.sha512",
+    "C:\\Users\\Gena4\\.nuget\\packages\\microsoft.net.http\\2.2.29\\microsoft.net.http.2.2.29.nupkg.sha512",
+    "C:\\Users\\Gena4\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Gena4\\.nuget\\packages\\plugin.userdialogs\\1.0.0\\plugin.userdialogs.1.0.0.nupkg.sha512",
+    "C:\\Users\\Gena4\\.nuget\\packages\\system.net.http\\4.3.4\\system.net.http.4.3.4.nupkg.sha512",
+    "C:\\Users\\Gena4\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Users\\cesar\\.nuget\\packages\\xamarin.forms\\4.8.0.1560\\xamarin.forms.4.8.0.1560.nupkg.sha512"
+    "C:\\Users\\Gena4\\.nuget\\packages\\xamarin.forms\\4.8.0.1560\\xamarin.forms.4.8.0.1560.nupkg.sha512"
   ],
   "logs": []
 }

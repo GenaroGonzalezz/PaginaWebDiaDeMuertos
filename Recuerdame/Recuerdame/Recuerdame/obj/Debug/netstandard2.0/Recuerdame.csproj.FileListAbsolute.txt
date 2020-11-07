@@ -13,3 +13,17 @@ C:\Users\cesar\source\repos\Recuerdame\Recuerdame\Recuerdame\Recuerdame\obj\Debu
 C:\Users\cesar\source\repos\Recuerdame\Recuerdame\Recuerdame\Recuerdame\obj\Debug\netstandard2.0\Recuerdame.csproj.CoreCompileInputs.cache
 C:\Users\cesar\source\repos\Recuerdame\Recuerdame\Recuerdame\Recuerdame\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\cesar\source\repos\Recuerdame\Recuerdame\Recuerdame\Recuerdame\obj\Debug\netstandard2.0\ChatBot.xaml.g.cs
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame\bin\Debug\netstandard2.0\Recuerdame.deps.json
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame\bin\Debug\netstandard2.0\Recuerdame.dll
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame\bin\Debug\netstandard2.0\ref\Recuerdame.dll
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame\bin\Debug\netstandard2.0\Recuerdame.pdb
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame\obj\Debug\netstandard2.0\Recuerdame.csprojAssemblyReference.cache
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame\obj\Debug\netstandard2.0\ChatBot.xaml.g.cs
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame\obj\Debug\netstandard2.0\Recuerdame.AssemblyInfoInputs.cache
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame\obj\Debug\netstandard2.0\Recuerdame.AssemblyInfo.cs
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame\obj\Debug\netstandard2.0\Recuerdame.dll
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame\obj\Debug\netstandard2.0\ref\Recuerdame.dll
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame\obj\Debug\netstandard2.0\Recuerdame.pdb
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame\obj\Debug\netstandard2.0\Recuerdame.csproj.CoreCompileInputs.cache

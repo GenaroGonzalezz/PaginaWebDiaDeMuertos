@@ -63,3 +63,13 @@ C:\Users\cesar\source\repos\Recuerdame\Recuerdame\Recuerdame\Recuerdame.iOS\obj\
 C:\Users\cesar\source\repos\Recuerdame\Recuerdame\Recuerdame\Recuerdame.iOS\obj\iPhone\Debug\Recuerdame.iOS.exe
 C:\Users\cesar\source\repos\Recuerdame\Recuerdame\Recuerdame\Recuerdame.iOS\obj\iPhone\Debug\Recuerdame.iOS.pdb
 C:\Users\cesar\source\repos\Recuerdame\Recuerdame\Recuerdame\Recuerdame.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.iOS\obj\iPhone\Debug\optimized\
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.iOS\obj\iPhone\Debug\Recuerdame.iOS.csprojAssemblyReference.cache
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.iOS\obj\iPhone\Debug\Recuerdame.iOS.csproj.CoreCompileInputs.cache
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.iOS\obj\iPhone\Debug\Recuerdame.iOS.exe
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.iOS\obj\iPhone\Debug\Recuerdame.iOS.pdb
