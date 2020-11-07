@@ -26,6 +26,21 @@
           "lib/xamarinios10/BTProgressHUD.dll": {}
         }
       },
+      "Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "[2.3.20, 3.0.0)",
+          "Microsoft.Rest.ClientRuntime.Azure": "[3.3.18, 4.0.0)",
+          "Newtonsoft.Json": "10.0.3",
+          "System.Net.Http": "4.3.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime.dll": {}
+        }
+      },
       "Microsoft.Bcl/1.1.10": {
         "type": "package",
         "dependencies": {
@@ -54,6 +69,32 @@
         "runtime": {
           "lib/Xamarin.iOS10/System.Net.Http.Extensions.dll": {},
           "lib/Xamarin.iOS10/System.Net.Http.Primitives.dll": {}
+        }
+      },
+      "Microsoft.Rest.ClientRuntime/2.3.20": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll": {}
+        }
+      },
+      "Microsoft.Rest.ClientRuntime.Azure/3.3.18": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "[2.3.17, 3.0.0)",
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {}
         }
       },
       "Newtonsoft.Json/12.0.3": {
@@ -247,6 +288,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Acr.UserDialogs": "7.1.0.466",
+          "Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime": "3.0.0",
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "12.0.3",
           "Plugin.UserDialogs": "1.0.0",
@@ -288,6 +330,21 @@
           "lib/xamarinios10/BTProgressHUD.dll": {}
         }
       },
+      "Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "[2.3.20, 3.0.0)",
+          "Microsoft.Rest.ClientRuntime.Azure": "[3.3.18, 4.0.0)",
+          "Newtonsoft.Json": "10.0.3",
+          "System.Net.Http": "4.3.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime.dll": {}
+        }
+      },
       "Microsoft.Bcl/1.1.10": {
         "type": "package",
         "dependencies": {
@@ -316,6 +373,32 @@
         "runtime": {
           "lib/Xamarin.iOS10/System.Net.Http.Extensions.dll": {},
           "lib/Xamarin.iOS10/System.Net.Http.Primitives.dll": {}
+        }
+      },
+      "Microsoft.Rest.ClientRuntime/2.3.20": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll": {}
+        }
+      },
+      "Microsoft.Rest.ClientRuntime.Azure/3.3.18": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "[2.3.17, 3.0.0)",
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {}
         }
       },
       "Newtonsoft.Json/12.0.3": {
@@ -499,6 +582,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Acr.UserDialogs": "7.1.0.466",
+          "Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime": "3.0.0",
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "12.0.3",
           "Plugin.UserDialogs": "1.0.0",
@@ -540,6 +624,21 @@
           "lib/xamarinios10/BTProgressHUD.dll": {}
         }
       },
+      "Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "[2.3.20, 3.0.0)",
+          "Microsoft.Rest.ClientRuntime.Azure": "[3.3.18, 4.0.0)",
+          "Newtonsoft.Json": "10.0.3",
+          "System.Net.Http": "4.3.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime.dll": {}
+        }
+      },
       "Microsoft.Bcl/1.1.10": {
         "type": "package",
         "dependencies": {
@@ -568,6 +667,32 @@
         "runtime": {
           "lib/Xamarin.iOS10/System.Net.Http.Extensions.dll": {},
           "lib/Xamarin.iOS10/System.Net.Http.Primitives.dll": {}
+        }
+      },
+      "Microsoft.Rest.ClientRuntime/2.3.20": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll": {}
+        }
+      },
+      "Microsoft.Rest.ClientRuntime.Azure/3.3.18": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "[2.3.17, 3.0.0)",
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {}
         }
       },
       "Newtonsoft.Json/12.0.3": {
@@ -751,6 +876,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Acr.UserDialogs": "7.1.0.466",
+          "Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime": "3.0.0",
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "12.0.3",
           "Plugin.UserDialogs": "1.0.0",
@@ -792,6 +918,21 @@
           "lib/xamarinios10/BTProgressHUD.dll": {}
         }
       },
+      "Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "[2.3.20, 3.0.0)",
+          "Microsoft.Rest.ClientRuntime.Azure": "[3.3.18, 4.0.0)",
+          "Newtonsoft.Json": "10.0.3",
+          "System.Net.Http": "4.3.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime.dll": {}
+        }
+      },
       "Microsoft.Bcl/1.1.10": {
         "type": "package",
         "dependencies": {
@@ -820,6 +961,32 @@
         "runtime": {
           "lib/Xamarin.iOS10/System.Net.Http.Extensions.dll": {},
           "lib/Xamarin.iOS10/System.Net.Http.Primitives.dll": {}
+        }
+      },
+      "Microsoft.Rest.ClientRuntime/2.3.20": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll": {}
+        }
+      },
+      "Microsoft.Rest.ClientRuntime.Azure/3.3.18": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "[2.3.17, 3.0.0)",
+          "NETStandard.Library": "1.6.1",
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll": {}
         }
       },
       "Newtonsoft.Json/12.0.3": {
@@ -1003,6 +1170,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Acr.UserDialogs": "7.1.0.466",
+          "Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime": "3.0.0",
           "Microsoft.Net.Http": "2.2.29",
           "Newtonsoft.Json": "12.0.3",
           "Plugin.UserDialogs": "1.0.0",
@@ -1070,6 +1238,21 @@
         "lib/xamarinios10/BTProgressHUD.dll",
         "lib/xamarinios10/BTProgressHUD.pdb",
         "lib/xamarinios10/BTProgressHUD.xml"
+      ]
+    },
+    "Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime/3.0.0": {
+      "sha512": "YK+5LFC4pnYLjxKb6/GjThQNeKbzN1MwCWri3yoVhe/hGV1O3zyhY+k5OfLnQemL5GgTIDRrGngYr4lcK8Fg3w==",
+      "type": "package",
+      "path": "microsoft.azure.cognitiveservices.language.luis.runtime/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime.dll",
+        "lib/net461/Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime.dll",
+        "lib/netstandard1.4/Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime.dll",
+        "lib/netstandard2.0/Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime.dll",
+        "microsoft.azure.cognitiveservices.language.luis.runtime.3.0.0.nupkg.sha512",
+        "microsoft.azure.cognitiveservices.language.luis.runtime.nuspec"
       ]
     },
     "Microsoft.Bcl/1.1.10": {
@@ -1253,6 +1436,46 @@
         "lib/wpa81/System.Net.Http.Primitives.xml",
         "microsoft.net.http.2.2.29.nupkg.sha512",
         "microsoft.net.http.nuspec"
+      ]
+    },
+    "Microsoft.Rest.ClientRuntime/2.3.20": {
+      "sha512": "bw/H1nO4JdnhTagPHWIFQwtlQ6rb2jqw5RTrqPsPqzrjhJxc7P6MyNGdf4pgHQdzdpBSNOfZTEQifoUkxmzYXQ==",
+      "type": "package",
+      "path": "microsoft.rest.clientruntime/2.3.20",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Microsoft.Rest.ClientRuntime.dll",
+        "lib/net452/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
+        "lib/net452/Microsoft.Rest.ClientRuntime.xml",
+        "lib/net461/Microsoft.Rest.ClientRuntime.dll",
+        "lib/net461/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
+        "lib/net461/Microsoft.Rest.ClientRuntime.xml",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.xml",
+        "lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll",
+        "lib/netstandard2.0/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
+        "lib/netstandard2.0/Microsoft.Rest.ClientRuntime.xml",
+        "microsoft.rest.clientruntime.2.3.20.nupkg.sha512",
+        "microsoft.rest.clientruntime.nuspec"
+      ]
+    },
+    "Microsoft.Rest.ClientRuntime.Azure/3.3.18": {
+      "sha512": "pCtem10PRQYvzRiwJVInsccsqB0NrTjW83NF3zWk1LpN3IS0AneZKq89RyogDT7mRMT1Li/mLY8N8kU6RAiK0g==",
+      "type": "package",
+      "path": "microsoft.rest.clientruntime.azure/3.3.18",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Microsoft.Rest.ClientRuntime.Azure.dll",
+        "lib/net452/Microsoft.Rest.ClientRuntime.Azure.runtimeconfig.json",
+        "lib/net452/Microsoft.Rest.ClientRuntime.Azure.xml",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.dll",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.runtimeconfig.json",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.Azure.xml",
+        "microsoft.rest.clientruntime.azure.3.3.18.nupkg.sha512",
+        "microsoft.rest.clientruntime.azure.nuspec"
       ]
     },
     "Newtonsoft.Json/12.0.3": {

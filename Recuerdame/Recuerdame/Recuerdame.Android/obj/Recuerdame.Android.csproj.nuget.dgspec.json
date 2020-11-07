@@ -108,6 +108,10 @@
               "target": "Package",
               "version": "[7.1.0.466, )"
             },
+            "Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Microsoft.Net.Http": {
               "target": "Package",
               "version": "[2.2.29, )"

@@ -10,6 +10,7 @@ using Plugin.Media.Abstractions;
 using System.Net.Http;
 using Acr.UserDialogs;
 using Newtonsoft.Json;
+using Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime.Models;
 
 namespace Recuerdame
 {
