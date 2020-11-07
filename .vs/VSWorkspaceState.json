@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Recuerdame",
+    "\\Recuerdame\\Recuerdame",
+    "\\Recuerdame\\Recuerdame\\Recuerdame.Android"
   ],
+  "SelectedNode": "\\Recuerdame\\Recuerdame\\Recuerdame.Android\\MainActivity.cs",
   "PreviewInSolutionExplorer": false
 }
