@@ -3,36 +3,45 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Recuerdame.MainPage">
 
-    <StackLayout Padding="20">
-        <Frame BackgroundColor="#360135" Padding="24" CornerRadius="0">
-            <Label Text="Día de Muertos Computer Vision" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
-        </Frame>
-        <Image x:Name="ImgSource" Source="Icon.png"
+    <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+        <StackLayout Padding="20">
+
+            <Frame BackgroundColor="#360135" Padding="24" CornerRadius="0">
+                <Label Text="Día de Muertos Computer Vision" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            <Image x:Name="ImgSource" Source="Icon.png"
                MinimumHeightRequest="100"
                MinimumWidthRequest="100"
                HorizontalOptions="Center"></Image>
 
-        <!--<Label Text="Bienvenido Viajero" FontSize="Title" Padding="30,10,30,10"/>
+            <!--<Label Text="Bienvenido Viajero" FontSize="Title" Padding="30,10,30,10"/>
         <Label Text="Empieza a conocer más sobre nuestra cultura mediante los servicios de Computer Vision de Microsoft" FontSize="16" Padding="30,0,30,0"/>-->
-        <Label FontSize="16" Padding="30,24,30,0">
-            <Label.FormattedText>
-                <FormattedString>
-                    <FormattedString.Spans>
-                        <Span Text="Visita nuestra página Web en "/>
-                        <Span Text="http://recuerdame.azurewebsites.net/" FontAttributes="Bold"/>
-                    </FormattedString.Spans>
-                </FormattedString>
-            </Label.FormattedText>
-        </Label>
-        <Button Text="Click Me" Clicked="Handle_Clicked"/>
-        <Button Text="Elige una foto" Clicked="Elegir_Clicked"></Button>
-        <Button Text="Tomar una foto" Clicked="Tomar_Clicked"/>
+            <Label FontSize="16" Padding="30,24,30,0">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <FormattedString.Spans>
+                            <Span Text="Visita nuestra página Web en "/>
+                            <Span Text="http://recuerdame.azurewebsites.net/" FontAttributes="Bold"/>
+                        </FormattedString.Spans>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Button Text="Click Me" Clicked="Handle_Clicked"/>
+            <Button Text="Elige una foto" Clicked="Elegir_Clicked"></Button>
+            <Button Text="Tomar una foto" Clicked="Tomar_Clicked"/>
 
-        <Button Text="Analizar" Clicked="Analizar_Clicked"/>
-        <Button Text="Chatbot" Clicked="Chatbot_Clicked"/>
+            <Button Text="Analizar" Clicked="Analizar_Clicked"/>
+            <Button Text="Chatbot" Clicked="Chatbot_Clicked"/>
 
-        <Label x:Name="Resultado"/>
-        <ProgressBar x:Name="Precision"/>
-    </StackLayout>
+            <Label x:Name="Resultado"/>
+            <ProgressBar x:Name="Precision"/>
+
+            <BoxView WidthRequest="600" HeightRequest="200" Color="Red"></BoxView>
+            <BoxView WidthRequest="600" HeightRequest="200" Color="Yellow"></BoxView>
+            <BoxView WidthRequest="600" HeightRequest="200" Color="Blue"></BoxView>
+            <BoxView WidthRequest="600" HeightRequest="200" Color="Red"></BoxView>
+
+        </StackLayout>
+    </ScrollView>
 
 </ContentPage>

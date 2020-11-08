@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gena4\\Desktop\\PracticasInnovaccion\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame.csproj": {}
+    "C:\\Users\\cesar\\source\\repos\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gena4\\Desktop\\PracticasInnovaccion\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame.csproj": {
+    "C:\\Users\\cesar\\source\\repos\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gena4\\Desktop\\PracticasInnovaccion\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame.csproj",
+        "projectUniqueName": "C:\\Users\\cesar\\source\\repos\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame.csproj",
         "projectName": "Recuerdame",
-        "projectPath": "C:\\Users\\Gena4\\Desktop\\PracticasInnovaccion\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame.csproj",
-        "packagesPath": "C:\\Users\\Gena4\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gena4\\Desktop\\PracticasInnovaccion\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame\\obj\\",
+        "projectPath": "C:\\Users\\cesar\\source\\repos\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame.csproj",
+        "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cesar\\source\\repos\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Gena4\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -49,10 +49,6 @@
             "Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime": {
               "target": "Package",
               "version": "[3.0.0, )"
-            },
-            "Microsoft.Net.Http": {
-              "target": "Package",
-              "version": "[2.2.29, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",
@@ -95,7 +91,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

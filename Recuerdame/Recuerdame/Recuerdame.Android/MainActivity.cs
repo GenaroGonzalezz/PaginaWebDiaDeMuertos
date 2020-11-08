@@ -7,7 +7,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using Xamarin.Forms;
-using Plugin.Permissions;
+//using Plugin.Permissions;
 
 namespace Recuerdame.Droid
 {
