@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.recuerdame" android:installLocation="auto">
-  <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="28" />
-  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="29" />
   <uses-feature android:name="android.hardware.camera" android:required="false" />
   <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.INTERNET" />
   <application android:label="Recuerdame.Android" android:theme="@style/MainTheme" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
-    <provider android:name="android.support.v4.content.FileProvider" android:authorities="Recuerdame.Android.fileprovider" android:exported="false" android:grantUriPermissions="true">
+    <provider android:name="android.support.v4.content.FileProvider" android:authorities="com.companyname.recuerdame.fileprovider" android:exported="false" android:grantUriPermissions="true">
       <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"></meta-data>
     </provider>
     <activity android:configChanges="orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:icon="@mipmap/icon" android:label="Recuerdame" android:theme="@style/MainTheme" android:name="crc6460e009629b7cbda0.MainActivity">
@@ -36,3 +36,16 @@
     </receiver>
   </application>
 </manifest>
+<!--
+
+<activity android:icon="@drawable/icon" android:label="Recuerdame"
+          android:name="md5a7a3c803e481ad8926683588c7e9031b.MainActivity">
+  <intent-filter>
+    <action android:name="android.intent.action.MAIN" />
+    <category android:name="android.intent.category.LAUNCHER" />
+    <action android:name="android.intent.action.VIEW" />
+    <category android:name="android.intent.category.SAMPLE_CODE" />
+    <category android:name="my.custom.category" />
+  </intent-filter>
+</activity>
+-->

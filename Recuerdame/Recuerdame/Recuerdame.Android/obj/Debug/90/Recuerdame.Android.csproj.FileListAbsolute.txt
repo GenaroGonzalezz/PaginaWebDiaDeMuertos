@@ -502,11 +502,6 @@ C:\Users\cesar\source\repos\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\
 C:\Users\cesar\source\repos\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\assets\Newtonsoft.Json.dll
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\bin\Debug\Recuerdame.Android.dll
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\bin\Debug\Recuerdame.Android.pdb
-C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\bin\Debug\com.companyname.recuerdame.apk
-C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\bin\Debug\com.companyname.recuerdame.aab
-C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\bin\Debug\com.companyname.recuerdame-Signed.aab
-C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\bin\Debug\com.companyname.recuerdame-Signed.apk
-C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\bin\Debug\com.companyname.recuerdame-Signed.apk.idsig
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\bin\Debug\Recuerdame.dll
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\bin\Debug\Recuerdame.pdb
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
@@ -522,10 +517,7 @@ C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Rec
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\Recuerdame.Android.csproj.CopyComplete
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\Recuerdame.Android.dll
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\Recuerdame.Android.pdb
-C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\bin\com.companyname.recuerdame.apk
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\bin\base.zip
-C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\bin\com.companyname.recuerdame.aab
-C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\bin\com.companyname.recuerdame.apks
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\res\layout\tabbar.xml
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\res\layout\toolbar.xml
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\res\values\styles.xml
@@ -1044,3 +1036,12 @@ C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Rec
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\assets\System.Resources.ResourceManager.dll
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\assets\System.Threading.Tasks.dll
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\assets\System.Xml.ReaderWriter.dll
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\src\com\companyname\media\plugin\sample\R.java
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\bin\Debug\com.companyname.recuerdame.apk
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\bin\Debug\com.companyname.recuerdame.aab
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\bin\Debug\com.companyname.recuerdame-Signed.aab
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\bin\Debug\com.companyname.recuerdame-Signed.apk
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\bin\Debug\com.companyname.recuerdame-Signed.apk.idsig
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\bin\com.companyname.recuerdame.apk
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\bin\com.companyname.recuerdame.aab
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\bin\com.companyname.recuerdame.apks

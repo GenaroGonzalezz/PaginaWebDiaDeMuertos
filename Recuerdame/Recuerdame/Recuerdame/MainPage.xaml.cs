@@ -14,6 +14,7 @@ using Acr.UserDialogs;
 using Newtonsoft.Json;
 using Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime.Models;
 
+
 namespace Recuerdame
 {
     public partial class MainPage : ContentPage
@@ -69,7 +70,10 @@ namespace Recuerdame
             });
             _photo = photo;
             ImgSource.Source = FileImageSource.FromFile(photo.Path);
-
+            if (photo == null)
+            {
+                return;
+            }
 
 
             //var imageSource = ImageSource.FromStream(() =>
@@ -79,28 +83,22 @@ namespace Recuerdame
             //});
 
 
-            if (photo == null)
-            {
-                return;
-            }
+
         }
-        private void Chatbot_Clicked(object sender, EventArgs e)
-        {
-            App.Current.MainPage = new NavigationPage(new ChatBot());
-        }
+     
 
         private async void Analizar_Clicked(object sender, EventArgs e)
         {
             const string endpoint = "https://servsearch.cognitiveservices.azure.com/customvision/v3.0/Prediction/d6057e20-e203-4a2c-852d-bbbaa2fdc00f/detect/iterations/Iteration12/image"; //link
-
             var httpClient = new HttpClient();
             httpClient.DefaultRequestHeaders.Add("Prediction-Key", "9916eea6e3be47dc8f87206b10e7ccb7"); //Prediction key of "If you have an image file" 
             var contentStream = new StreamContent(_photo.GetStream());
+            var response = await httpClient.PostAsync(endpoint, contentStream); 
             try
             {
                 using (Acr.UserDialogs.UserDialogs.Instance.Loading("Procesando..."))
                 {
-                    var response = await httpClient.PostAsync(endpoint, contentStream);
+                    
 
                     if (!response.IsSuccessStatusCode)
                     {
@@ -122,6 +120,10 @@ namespace Recuerdame
                 UserDialogs.Instance.Toast("Oops no cargaste imagen.");
                 return;
             }
+        }
+        private void Chatbot_Clicked(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new NavigationPage(new ChatBot());
         }
     }
 
