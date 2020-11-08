@@ -1045,3 +1045,4 @@ C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Rec
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\bin\com.companyname.recuerdame.apk
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\bin\com.companyname.recuerdame.aab
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\bin\com.companyname.recuerdame.apks
+C:\Users\cesar\source\repos\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\src\com\companyname\media\plugin\sample\R.java
