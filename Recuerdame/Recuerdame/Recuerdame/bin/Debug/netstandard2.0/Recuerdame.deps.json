@@ -11,6 +11,8 @@
         "dependencies": {
           "Acr.UserDialogs": "7.1.0.466",
           "Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime": "3.0.0",
+          "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": "6.0.0",
+          "Microsoft.Azure.CognitiveServices.Vision.CustomVision.Prediction": "2.0.0",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.3",
           "Plugin.UserDialogs": "1.0.0",
@@ -42,6 +44,34 @@
           "lib/netstandard2.0/Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime.dll": {
             "assemblyVersion": "3.0.0.0",
             "fileVersion": "3.0.19.52101"
+          }
+        }
+      },
+      "Microsoft.Azure.CognitiveServices.Vision.ComputerVision/6.0.0": {
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.3.20",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.18",
+          "Newtonsoft.Json": "12.0.3",
+          "System.Net.Http": "4.3.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.20.50903"
+          }
+        }
+      },
+      "Microsoft.Azure.CognitiveServices.Vision.CustomVision.Prediction/2.0.0": {
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.3.20",
+          "Microsoft.Rest.ClientRuntime.Azure": "3.3.18",
+          "Newtonsoft.Json": "12.0.3",
+          "System.Net.Http": "4.3.4"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Azure.CognitiveServices.Vision.CustomVision.Prediction.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.20.32902"
           }
         }
       },
@@ -594,6 +624,20 @@
       "sha512": "sha512-YK+5LFC4pnYLjxKb6/GjThQNeKbzN1MwCWri3yoVhe/hGV1O3zyhY+k5OfLnQemL5GgTIDRrGngYr4lcK8Fg3w==",
       "path": "microsoft.azure.cognitiveservices.language.luis.runtime/3.0.0",
       "hashPath": "microsoft.azure.cognitiveservices.language.luis.runtime.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.Azure.CognitiveServices.Vision.ComputerVision/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7uLnrag+Tqiky7aobktqitfPNEYC2Rcc6qeAm3V4iOOsRDYKISaRN7V82wXLdvfCs0CvtyYuJo3MGalChhIufQ==",
+      "path": "microsoft.azure.cognitiveservices.vision.computervision/6.0.0",
+      "hashPath": "microsoft.azure.cognitiveservices.vision.computervision.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Azure.CognitiveServices.Vision.CustomVision.Prediction/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QK2OPnxxQE4yI5WAulp69QNnbjBQGOH+HesEdN0NqP3Zqvam+dnqVTHyVmRWZSW78NM/H9OXqE79r+qncBBr3w==",
+      "path": "microsoft.azure.cognitiveservices.vision.customvision.prediction/2.0.0",
+      "hashPath": "microsoft.azure.cognitiveservices.vision.customvision.prediction.2.0.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.1": {
       "type": "package",

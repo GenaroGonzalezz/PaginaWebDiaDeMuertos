@@ -2,6 +2,11 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using AndroidSpecific = Xamarin.Forms.PlatformConfiguration.AndroidSpecific;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace Recuerdame
 {
