@@ -4,10 +4,9 @@
              x:Class="Recuerdame.MainPage">
 
     <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
-        <StackLayout Padding="20">
-
+        <StackLayout BackgroundColor="#062F4F" Padding="30">
             <Frame BackgroundColor="#360135" Padding="24" CornerRadius="0">
-                <Label Text="Día de Muertos Computer Vision" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+                <Label RotationX="-30" Text="Día de Muertos Computer Vision" HorizontalTextAlignment="Center" TextColor="White" FontSize="40"/>
             </Frame>
             <Image x:Name="ImgSource" Source="Icon.png"
                MinimumHeightRequest="100"
@@ -20,21 +19,20 @@
                 <Label.FormattedText>
                     <FormattedString>
                         <FormattedString.Spans>
-                            <Span Text="Visita nuestra página Web en "/>
-                            <Span Text="http://recuerdame.azurewebsites.net/" FontAttributes="Bold"/>
+                            <Span TextColor="White" Text="Visita nuestra página Web en "/>
+                            <Span TextColor="White" Text="http://recuerdame.azurewebsites.net/" FontAttributes="Bold"/>
                         </FormattedString.Spans>
                     </FormattedString>
                 </Label.FormattedText>
             </Label>
-            <Button Text="Click Me" Clicked="Handle_Clicked"/>
-            <Button Text="Elige una foto" Clicked="Elegir_Clicked"></Button>
-            <Button Text="Tomar una foto" Clicked="Tomar_Clicked"/>
+            <Button Padding="25" FontAttributes="Bold" FontSize="Title" BackgroundColor="#813772" TextColor="White" Text="Elige una foto" Clicked="Elegir_Clicked" RotationY="-5"></Button>
+            <Button Padding="25" FontAttributes="Bold" FontSize="Title" BackgroundColor="#A239CA" TextColor="White" Text="Tomar una foto" Clicked="Tomar_Clicked" RotationY="5"/>
 
-            <Button Text="Analizar" Clicked="Analizar_Clicked"/>
-            <Button Text="Chatbot" Clicked="Chatbot_Clicked"/>
+            <Button Padding="25" FontAttributes="Bold" FontSize="Title" BackgroundColor="#813772" TextColor="White" Text="Analizar" Clicked="Analizar_Clicked" RotationY="-5"/>
+            <Button Padding="25" FontAttributes="Bold" FontSize="Title" BackgroundColor="#A239CA" TextColor="White" Text="Chatbot" Clicked="Chatbot_Clicked" RotationY="5"/>
 
             <Label x:Name="Resultado"/>
-            <ProgressBar x:Name="Precision"/>
+            <ProgressBar ScaleX="1.1" ScaleY="0.4" ProgressColor="#B82601" BackgroundColor="White" x:Name="Precision"/>
 
             <BoxView WidthRequest="600" HeightRequest="200" Color="Red"></BoxView>
             <BoxView WidthRequest="600" HeightRequest="200" Color="Yellow"></BoxView>
@@ -45,3 +43,8 @@
     </ScrollView>
 
 </ContentPage>
+
+
+
+
+
