@@ -1036,7 +1036,6 @@ C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Rec
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\assets\System.Resources.ResourceManager.dll
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\assets\System.Threading.Tasks.dll
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\assets\System.Xml.ReaderWriter.dll
-C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\src\com\companyname\media\plugin\sample\R.java
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\bin\Debug\com.companyname.recuerdame.apk
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\bin\Debug\com.companyname.recuerdame.aab
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\bin\Debug\com.companyname.recuerdame-Signed.aab
@@ -1045,4 +1044,13 @@ C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Rec
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\bin\com.companyname.recuerdame.apk
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\bin\com.companyname.recuerdame.aab
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\bin\com.companyname.recuerdame.apks
+<<<<<<< HEAD
 C:\Users\cesar\source\repos\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\src\com\companyname\media\plugin\sample\R.java
+=======
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\assets\Microsoft.Azure.CognitiveServices.Vision.CustomVision.Prediction.dll
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\assets\Microsoft.Azure.CognitiveServices.Vision.ComputerVision.dll
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\assets\Plugin.Permissions.dll
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\assets\Plugin.Permissions.pdb
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\assets\Plugin.CurrentActivity.dll
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame.Android\obj\Debug\90\android\src\crc64435a5ac349fa9fda\ActivityLifecycleContextListener.java
+>>>>>>> d60b6db0a8ed0f73f7543515f3bc12a44059274b
