@@ -5,7 +5,7 @@
 
     <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
         <StackLayout BackgroundColor="#062F4F" Padding="30">
-            <Frame BackgroundColor="#360135" Padding="24" CornerRadius="0">
+            <Frame BorderColor="Orange" BackgroundColor="#360135" Padding="24" CornerRadius="0">
                 <Label RotationX="-30" Text="Día de Muertos Computer Vision" HorizontalTextAlignment="Center" TextColor="White" FontSize="40"/>
             </Frame>
             <Image x:Name="ImgSource" Source="Icon.png"
@@ -25,14 +25,15 @@
                     </FormattedString>
                 </Label.FormattedText>
             </Label>
-            <Button Padding="25" FontAttributes="Bold" FontSize="Title" BackgroundColor="#813772" TextColor="White" Text="Elige una foto" Clicked="Elegir_Clicked" RotationY="-5"></Button>
-            <Button Padding="25" FontAttributes="Bold" FontSize="Title" BackgroundColor="#A239CA" TextColor="White" Text="Tomar una foto" Clicked="Tomar_Clicked" RotationY="5"/>
+            <Button ImageSource="" BorderWidth="10" BorderColor="Chocolate" Padding="25" FontAttributes="Bold" FontSize="Title" BackgroundColor="#813772" TextColor="White" Text="Elige una foto" Clicked="Elegir_Clicked" RotationY="-5"/>
+            <Button BorderWidth="10" BorderColor="DarkOliveGreen" Padding="25" FontAttributes="Bold" FontSize="Title" BackgroundColor="#A239CA" TextColor="White" Text="Toma una foto" Clicked="Tomar_Clicked" RotationY="5"/>
 
-            <Button Padding="25" FontAttributes="Bold" FontSize="Title" BackgroundColor="#813772" TextColor="White" Text="Analizar" Clicked="Analizar_Clicked" RotationY="-5"/>
-            <Button Padding="25" FontAttributes="Bold" FontSize="Title" BackgroundColor="#A239CA" TextColor="White" Text="Chatbot" Clicked="Chatbot_Clicked" RotationY="5"/>
+            <Button BorderWidth="10" BorderColor="Chocolate" Padding="25" FontAttributes="Bold" FontSize="Title" BackgroundColor="#813772" TextColor="White" Text="Analizar" Clicked="Analizar_Clicked" RotationY="-5"/>
+            <Button BorderWidth="10" BorderColor="DarkOliveGreen" Padding="25" FontAttributes="Bold" FontSize="Title" BackgroundColor="#A239CA" TextColor="White" Text="Chatbot" Clicked="Chatbot_Clicked" RotationY="5"/>
 
-            <Label x:Name="Resultado"/>
-            <ProgressBar ScaleX="1.1" ScaleY="0.4" ProgressColor="#B82601" BackgroundColor="White" x:Name="Precision"/>
+            
+            <Label Padding="20" BackgroundColor="White" x:Name="Resultado"/>
+            <ProgressBar MinimumWidthRequest="30" ScaleX="1.1" ScaleY="0.5" Opacity="14" ProgressColor="#B82601" BackgroundColor="White" x:Name="Precision"/>
 
             <BoxView WidthRequest="600" HeightRequest="200" Color="Red"></BoxView>
             <BoxView WidthRequest="600" HeightRequest="200" Color="Yellow"></BoxView>

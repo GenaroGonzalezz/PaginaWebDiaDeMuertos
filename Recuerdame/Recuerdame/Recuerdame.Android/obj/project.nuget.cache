@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "XwDJzWp3Ns/z7A50mM4R1Qyha8jRcFKMDqJmlEnsMP/4P6PUezIBpKVGCmw0jJC5v7a1Z/Et4zUHrE0KPr8smw==",
-=======
-  "dgSpecHash": "EgqV6pxjyGA89HHlU7Newta6lz/9HU1FDzu/SILW/jjXlYOaovliuaxH4h7hSU8ky+DgTP3GpMqbDKzn7Kpbvw==",
->>>>>>> bdc61b5f0ec0b0c04563f8e817b6ab047c3df911
   "success": true,
   "projectFilePath": "C:\\Users\\Gena4\\Desktop\\PracticasInnovaccion\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame.Android\\Recuerdame.Android.csproj",
   "expectedPackageFiles": [
@@ -105,5 +101,12 @@
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Users\\Gena4\\.nuget\\packages\\xamarin.forms\\4.8.0.1560\\xamarin.forms.4.8.0.1560.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Gena4\\Desktop\\PracticasInnovaccion\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame.Android\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

@@ -171,9 +171,12 @@ namespace Recuerdame
                 var json = await response.Content.ReadAsStringAsync();
                 var prediction = JsonConvert.DeserializeObject<Rootobject>(json);
                 var tag = prediction.predictions.First();
+                
+                    Resultado.Text = $"{tag.tagName} - {tag.probability:p0}";
+                    Precision.Progress = tag.probability;
 
-                Resultado.Text = $"{tag.tagName} - {tag.probability:p0}";
-                Precision.Progress = tag.probability;
+
+                
                 // return;
             }
         }
