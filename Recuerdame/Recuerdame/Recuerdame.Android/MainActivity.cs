@@ -11,6 +11,12 @@ using Xamarin.Forms;
 using Plugin.Media;
 //using Plugin.Permissions;
 
+[assembly: UsesFeature("android.hardware.camera", Required = false)]
+[assembly: UsesFeature("android.hardware.camera.autofocus", Required = false)]
+
+[assembly: UsesPermission(Android.Manifest.Permission.WriteExternalStorage)]
+[assembly: UsesPermission("android.permission.READ_EXTERNAL_STORAGE")]
+
 namespace Recuerdame.Droid
 {
     [Activity(Label = "Recuerdame", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize)]
@@ -37,6 +43,7 @@ namespace Recuerdame.Droid
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
 
+       
         /*public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
