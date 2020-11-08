@@ -2290,24 +2290,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cesar\\.nuget\\packages\\": {},
+    "C:\\Users\\Gena4\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cesar\\source\\repos\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame.Android\\Recuerdame.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Gena4\\Desktop\\PracticasInnovaccion\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame.Android\\Recuerdame.Android.csproj",
       "projectName": "Recuerdame.Android",
-      "projectPath": "C:\\Users\\cesar\\source\\repos\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame.Android\\Recuerdame.Android.csproj",
-      "packagesPath": "C:\\Users\\cesar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cesar\\source\\repos\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame.Android\\obj\\",
+      "projectPath": "C:\\Users\\Gena4\\Desktop\\PracticasInnovaccion\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame.Android\\Recuerdame.Android.csproj",
+      "packagesPath": "C:\\Users\\Gena4\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Gena4\\Desktop\\PracticasInnovaccion\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\cesar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Gena4\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -2321,8 +2321,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\cesar\\source\\repos\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame.csproj": {
-              "projectPath": "C:\\Users\\cesar\\source\\repos\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame.csproj"
+            "C:\\Users\\Gena4\\Desktop\\PracticasInnovaccion\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame.csproj": {
+              "projectPath": "C:\\Users\\Gena4\\Desktop\\PracticasInnovaccion\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame\\Recuerdame.csproj"
             }
           }
         }

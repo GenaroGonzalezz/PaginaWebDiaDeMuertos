@@ -27,3 +27,4 @@ C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Rec
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame\obj\Debug\netstandard2.0\ref\Recuerdame.dll
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame\obj\Debug\netstandard2.0\Recuerdame.pdb
 C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame\obj\Debug\netstandard2.0\Recuerdame.csproj.CoreCompileInputs.cache
+C:\Users\Gena4\Desktop\PracticasInnovaccion\Recuerdame\Recuerdame\Recuerdame\Recuerdame\obj\Debug\netstandard2.0\XamlC.stamp
