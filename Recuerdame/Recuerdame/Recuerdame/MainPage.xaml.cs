@@ -1,10 +1,12 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using Xamarin.Essentials;
 using Plugin.Media;
 using Plugin.Media.Abstractions;
 using System.Net.Http;
@@ -29,7 +31,7 @@ namespace Recuerdame
         {
             count++;
             ((Button)sender).Text = $"You clicked {count} times.";
-        } 
+        }
         private async void Elegir_Clicked(object sender, EventArgs e)
         {
             await CrossMedia.Current.Initialize();
@@ -94,22 +96,31 @@ namespace Recuerdame
             var httpClient = new HttpClient();
             httpClient.DefaultRequestHeaders.Add("Prediction-Key", "9916eea6e3be47dc8f87206b10e7ccb7"); //Prediction key of "If you have an image file" 
             var contentStream = new StreamContent(_photo.GetStream());
-
-            using (Acr.UserDialogs.UserDialogs.Instance.Loading("Procesando..."))
+            try
             {
-                var response = await httpClient.PostAsync(endpoint, contentStream);
-
-                if (!response.IsSuccessStatusCode)
+                using (Acr.UserDialogs.UserDialogs.Instance.Loading("Procesando..."))
                 {
-                    UserDialogs.Instance.Toast("Un error ha ocurrido");
-                    return;
-                }
-                var json = await response.Content.ReadAsStringAsync();
-                var prediction = JsonConvert.DeserializeObject<PredictionResponse>(json);
-                var tag = prediction.Predictions.First();
+                    var response = await httpClient.PostAsync(endpoint, contentStream);
 
-                //Resultado.Text = $"{tag.Tag} - {tag.Probability:p0}";
-                //Precision.Progress = tag.Probability;
+                    if (!response.IsSuccessStatusCode)
+                    {
+                        UserDialogs.Instance.Toast("Un error ha ocurrido");
+                        return;
+                    }
+
+                    var json = await response.Content.ReadAsStringAsync();
+                    var prediction = JsonConvert.DeserializeObject<PredictionResponse>(json);
+                    var tag = prediction.Predictions.First();
+
+                    Resultado.Text = $"{tag.Entities} - {tag.Intents:p0}";
+                    //Precision.Progress = tag.Probability;
+                }
+
+            }
+            catch (System.NullReferenceException)
+            {
+                UserDialogs.Instance.Toast("Oops no cargaste imagen.");
+                return;
             }
         }
     }
@@ -126,5 +137,6 @@ namespace Recuerdame
         public string Iteration { get; set; }
         public DateTime Created { get; set; }
         public Prediction[] Predictions { get; set; }
+
     }
 }
