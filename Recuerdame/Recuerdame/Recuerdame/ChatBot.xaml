@@ -3,8 +3,10 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Recuerdame.ChatBot">
     <ContentPage.Content>
-        <StackLayout>
-            <!--<WebView x:Name="browser" Source="https://webchat.botframework.com/embed/preguntasmuertos-bot?s=2K1K_zKguck._Iolu5aLOsJRffNN9ELB-1V_3G_AT16HYzkGkgztfmI" WidthRequest="300" HeightRequest="300"></WebView>-->
-        </StackLayout>
+        <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+            <StackLayout>
+                <!--<WebView x:Name="browser" Source="https://webchat.botframework.com/embed/preguntasmuertos-bot?s=2K1K_zKguck._Iolu5aLOsJRffNN9ELB-1V_3G_AT16HYzkGkgztfmI" WidthRequest="300" HeightRequest="300" VerticalOptions="EndAndExpand"></WebView>-->
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

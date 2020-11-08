@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using AndroidSpecific = Xamarin.Forms.PlatformConfiguration.AndroidSpecific;
 
 namespace Recuerdame
 {
@@ -10,6 +11,7 @@ namespace Recuerdame
         {
             InitializeComponent();
             MainPage = new MainPage();
+            AndroidSpecific.Application.SetWindowSoftInputModeAdjust(this, AndroidSpecific.WindowSoftInputModeAdjust.Resize);
         }
 
         protected override void OnStart()

@@ -108,7 +108,7 @@ namespace Recuerdame
                 var prediction = JsonConvert.DeserializeObject<PredictionResponse>(json);
                 var tag = prediction.Predictions.First();
 
-                Resultado.Text = $"{tag.Entities} - {tag.Intents:p0}";
+                //Resultado.Text = $"{tag.Tag} - {tag.Probability:p0}";
                 //Precision.Progress = tag.Probability;
             }
         }
@@ -126,6 +126,5 @@ namespace Recuerdame
         public string Iteration { get; set; }
         public DateTime Created { get; set; }
         public Prediction[] Predictions { get; set; }
-
     }
 }
